@@ -80,16 +80,15 @@ class MyRequest extends Component {
                 name="original" 
                 onChange={this.handleChange} 
                 value={this.state.original} 
-                required
                 />
             </Form.Group>
             <Form.Group controlId="formGridAddress1">
               <Form.Label>Year of the movie</Form.Label>
               <Form.Control 
                 name="year" 
+                type="number"
                 onChange={this.handleChange} 
                 value={this.state.year} 
-                required
                 />
             </Form.Group>
             <Form.Group controlId="formGridAddress1">
@@ -97,8 +96,7 @@ class MyRequest extends Component {
               <Form.Control 
                 name="description" 
                 onChange={this.handleChange} 
-                value={this.state.description} 
-                required
+                value={this.state.description}
                 />
             </Form.Group>
             <Form.Group controlId="formGridAddress1">
@@ -107,7 +105,6 @@ class MyRequest extends Component {
                 name="link" 
                 onChange={this.handleChange} 
                 value={this.state.link} 
-                required
                 />
             </Form.Group>
               <Button variant="outline-info"  type="submit">
