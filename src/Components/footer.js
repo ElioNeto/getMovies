@@ -13,7 +13,7 @@ class Footer extends Component {
                     <Row>
                         <Col>
                             <center>
-                                <small><b>Desenvolvido por: </b> Elio Neto</small>
+                                <small><b>Developement by: </b> Elio Neto</small>
                             </center>
                         </Col>
                         <Col className="mr-sm-2" >
@@ -23,7 +23,7 @@ class Footer extends Component {
                         </Col>
                         <Col>
                             <center>
-                                <Button variant="outline-secundary" href="https://github.com/ElioNeto/getMovies">Contribute</Button>
+                                <Button variant="outline-info" href="https://github.com/ElioNeto/getMovies" target="_blank">GitHub</Button>
                             </center>
                         </Col>
                     </Row>

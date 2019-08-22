@@ -10,6 +10,10 @@ class Header extends Component {
                 <Navbar.Brand>Get Movies</Navbar.Brand>
                 <Nav className="mr-auto">
                 <Nav.Link href="/">Welcome</Nav.Link>
+                <Nav.Link href="/request">Request</Nav.Link>
+                <Nav.Link href="/todo">ToDo</Nav.Link>
+                <Nav.Link href="/done">Done</Nav.Link>
+                <Nav.Link href="/fail">Failure</Nav.Link>
                 </Nav>
             </Navbar>
         </div>

@@ -14,12 +14,12 @@ class Welcome extends React.Component {
   }
 
   componentDidMount(){
-    const getStatus = firebase.database().ref('statusView')
+    const getStatus = firebase.database().ref('Welcome_STATUS')
     getStatus.on('value', (snapshot) => {
         let postStatus = snapshot.val()
         this.setState({status: postStatus})
     }) 
-    const getMsg = firebase.database().ref('msgView')
+    const getMsg = firebase.database().ref('Welcome_MSG')
     getMsg.on('value', (snapshot) => {
         let postMsg = snapshot.val()
         this.setState({msg: postMsg})
