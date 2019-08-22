@@ -8,7 +8,7 @@ class Welcome extends React.Component {
   constructor() {
     super()
     this.state = {
-     msg: 'Aguarde...',
+     msg: 'Wait...',
      status: 'Welcome to getMovie'
     }
   }

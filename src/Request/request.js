@@ -43,16 +43,7 @@ class MyRequest extends Component {
         description: '',
         link: ''
     });
-
-    let numberOfTasks;
-    const pullNumber = firebase.database().ref('todoCounter')
-    pullNumber.once('value', function(snapshot) {
-        numberOfTasks =  snapshot.val();
-        numberOfTasks +=1;
-        firebase.database().ref('todoCounter').set(numberOfTasks);
-   });
-  window.location.reload();
-}
+  }
     render() {
       return (
         <div>
